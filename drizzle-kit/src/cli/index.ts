@@ -1,4 +1,5 @@
 import { command, run } from '@drizzle-team/brocli';
+console.log('\x1b[33m%s\x1b[0m', '>>> RUNNING CUSTOM DRIZZLE-KIT FROM sh41/drizzle-orm FORK <<<');
 import chalk from 'chalk';
 import { check, drop, exportRaw, generate, migrate, pull, push, studio, up } from './schema';
 import { ormCoreVersions } from './utils';

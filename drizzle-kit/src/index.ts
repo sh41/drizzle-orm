@@ -1,6 +1,7 @@
 import { ConnectionOptions } from 'tls';
 import type { Driver, Prefix } from './cli/validations/common';
 import type { Dialect } from './schemaValidator';
+console.log('\x1b[33m%s\x1b[0m', '>>> RUNNING CUSTOM DRIZZLE-KIT FROM sh41/drizzle-orm FORK <<<');
 
 // import {SslOptions} from 'mysql2'
 type SslOptions = {
