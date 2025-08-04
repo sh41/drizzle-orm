@@ -29,7 +29,7 @@
 	"author": "Drizzle Team",
 	"license": "MIT",
 	"bin": {
-		"drizzle-kit": "./bin.cjs"
+		"drizzle-kit": "./dist/bin.cjs"
 	},
 	"scripts": {
 		"api": "tsx ./dev/api.ts",
